@@ -1,0 +1,28 @@
+Case: pass_case
+  Input   : score=85, documents_complete=True, attendance=90, disciplinary=0
+  Expected: Review
+  Actual  : Review
+  Reason  : all conditions met
+  Match   : True
+
+Case: low_attendance
+  Input   : score=85, documents_complete=True, attendance=60, disciplinary=0
+  Expected: Hold
+  Actual  : Hold
+  Reason  : attendance 60% < 75%
+  Match   : True
+
+Case: disciplinary_record
+  Input   : score=85, documents_complete=True, attendance=90, disciplinary=2
+  Expected: Hold
+  Actual  : Hold
+  Reason  : 2 disciplinary case(s)
+  Match   : True
+
+Case: score_boundary
+  Input   : score=70, documents_complete=True, attendance=75, disciplinary=0
+  Expected: Review
+  Actual  : Review
+  Reason  : all conditions met
+  Match   : True
+

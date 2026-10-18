@@ -1,8 +1,0 @@
-AI Lab 1: Scholarship Case Comparison
-Input: {'score': 85, 'documents_complete': True, 'attendance': 60, 'disciplinary_cases': 0}
-Rule-based decision: Hold
-Rule-based reason: attendance 60% < 75%
-Hypothetical conversational response: The student should qualify because the score is high.
-Decision suggested by conversational response: Review
-Agreement: NO
-Explanation: the conversational-style answer focuses on the score and overlooks the attendance condition.
